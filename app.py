@@ -64,7 +64,7 @@ def upload():
     return send_file(
         output,
         as_attachment=True,
-        download_name='result.xlsx',
+        download_name='results.xlsx',
         mimetype='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
     )
 
